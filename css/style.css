@@ -1,0 +1,164 @@
+.box{
+	background:  #A9A9A9;
+	height: 500px;
+	position: relative;
+}
+.box2{
+	height: 500px;
+	background-color: green;
+}
+.box2 p {
+	font-size: 50px;
+	text-align: center;
+	
+	color: red;
+	font-weight: 900;
+}
+.round {
+	height: 200px;
+	width: 200px;
+	background: #24ed12;
+	border: 3px solid #fff;
+	-webkit-animation-name: rou;
+	-webkit-animation-duration: 3s;
+	animation-name: rou;
+	animation-duration: 3s;
+	-moz-animation-name: rou;
+	-moz-animation-duration: 3s;
+	margin: 0 auto;
+}
+.round p {
+	text-align: center;
+	
+	font-size: 32px;
+	color: #fff;
+	font-weight: 700;
+}
+.round2 {
+	width: 70%;
+	height: 200px;
+	background-color: blue;
+	margin: 0 auto;
+	animation-name: test;
+	animation-duration: 2s;
+	-webkit-animation-name: test;
+	-webkit-animation-duration: 2s;
+	-moz-animation-name: test;
+	-moz-animation-duration: 2s;	
+}
+.round2 p {
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	font-weight: 700;
+	
+}
+.move{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	animation-name: run;
+	animation-duration: 5s;
+	-webkit-animation-name: run;
+	-webkit-animation-duration: 5s;
+	-moz-animation-name: run;
+	-moz-animation-duration: 5s;
+}
+.move p{
+	text-align: center;
+	font-size: 32px;
+	color: #fff;
+	font-weight: 700;
+	
+	animation-name: run2;
+	animation-duration: 5s;
+
+}
+.color{
+	background-color: red;
+	height: 500px;
+	
+
+}
+.color p{
+	text-align: center;
+	
+	font-size: 32px;
+	color: #fff;
+	font-weight: 700;
+}
+
+@keyframes rou{
+	0%{background-color: #fff;}
+	25%{background-color: red;}
+	75%{background-color: green;}
+	100%{background-color: yellow;}
+}
+@-webkit-keyframes rou{
+	0%{background-color: #fff;}
+	25%{background-color: red;}
+	75%{background-color: green;}
+	100%{background-color: yellow;}
+}
+@-moz-keyframes rou{
+	0%{background-color: #fff;}
+	25%{background-color: red;}
+	75%{background-color: green;}
+	100%{background-color: yellow;}
+}
+
+
+@keyframes test{
+	0%{background-color: #8B0000}
+	10%{background-color: red;}
+	20%{background-color: #B8860B;}
+	30%{background-color: #9400D3;}
+	40%{background-color: #fff;}
+	50%{background-color: #7FFF00;}
+	60%{background-color: #6A5ACD;}
+	70%{background-color: #6495ED;}
+	80%{background-color: #32CD32;}
+	90%{background-color: #48D1CC;}
+	100%{background-color: #4169E1;}
+}
+@-webkit-keyframes test{
+	0%{background-color: #8B0000}
+	10%{background-color: red;}
+	20%{background-color: #B8860B;}
+	30%{background-color: #9400D3;}
+	40%{background-color: #fff;}
+	50%{background-color: #7FFF00;}
+	60%{background-color: #6A5ACD;}
+	70%{background-color: #6495ED;}
+	80%{background-color: #32CD32;}
+	90%{background-color: #48D1CC;}
+	100%{background-color: #4169E1;}
+}
+@-moz-keyframes test{
+	0%{background-color: #8B0000}
+	10%{background-color: red;}
+	20%{background-color: #B8860B;}
+	30%{background-color: #9400D3;}
+	40%{background-color: #fff;}
+	50%{background-color: #7FFF00;}
+	60%{background-color: #6A5ACD;}
+	70%{background-color: #6495ED;}
+	80%{background-color: #32CD32;}
+	90%{background-color: #48D1CC;}
+	100%{background-color: #4169E1;}
+}
+@-moz-keyframes run{
+	0%{background-color: #8B0000; left:0;top:0; }
+	10%{background-color: red;left:40%;top:0; }
+	20%{background-color: #B8860B;left:40%;top:50%; }
+	30%{background-color: #9400D3;left:0;top:50%; }
+	40%{background-color: #fff;left:0;top:0; }
+	
+}
+
+@keyframes run2{
+	0%{color: #fff;}
+	25%{color: red;}
+	75%{color: green;}
+	100%{color: yellow;}
